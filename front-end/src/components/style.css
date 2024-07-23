@@ -1,0 +1,1009 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    width: 100%;
+    
+    
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-top: 2px;
+  font-size: 17px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* height: 100vh; */
+    width: 100%;
+    margin: 0;
+    background-image: linear-gradient(#5B7FFF, #093948);
+    
+    
+}
+
+.subconatiner{
+    background-color: #022d2fb0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 72px;
+    text-align: left;
+
+}
+
+h2{
+    margin: 0;
+    padding-top: 23px;
+    padding-left: 10px;
+    color: aliceblue;
+}
+
+.textcustom{
+    text-decoration: none;
+}
+
+.fix-icon{
+  font-size: 20px;
+  padding-bottom: 0;
+  margin-right: 5px;
+}
+
+
+.panel{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 30px;
+    width: 403px;
+}
+
+.panel p {
+    margin-top: 26px;
+    padding-right: 30px;
+    font-size: 17px;
+}
+
+.link{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.container1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.banner p{
+    font-size: 120px;
+}
+
+.text{
+    width: 100%;
+    height: 50px;
+}
+
+.customlink {
+    background-color: #5B7FFF;
+    border:solid #5B7FFF ;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: #0505057a;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.footer .f-text {
+  font-size: 15px;
+  padding-right: 30px;
+}
+
+.footer .f-text p {
+  padding: 0;
+  margin: 0;
+  padding-top: 6px;
+  padding-bottom: 5px;
+}
+
+.f-text a {
+  text-decoration: none;
+}
+
+.textcustom{
+    padding-right: 15px;
+    text-align: left;
+}
+
+
+
+
+
+
+/* Content Boxes */
+.content-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 73px;
+}
+  
+.down-icon{
+  font-size: 23px;
+  padding-right: 3px;
+}
+
+.box {
+  width: 300px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s;
+}
+  
+.box:hover {
+  transform: translateY(-10px);
+}
+  
+.icon-wrapper {
+  font-size: 40px;
+  color: #007bff;
+  margin-bottom: 10px;
+}
+  
+.title {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+  
+.description {
+  font-size: 1em;
+  color: #666;
+}
+
+
+/* services boxes */
+.service-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+  
+.service-box {
+  width: 100%;
+  max-width: 1040px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.3s;
+}
+  
+.service-box:hover {
+  transform: translateY(-10px);
+}
+  
+.service-title {
+  font-size: 1.8em;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+  
+.service-description {
+  font-size: 1.1em;
+  color: #cbbebe;
+  line-height: 1.6;
+  text-align: center;
+}
+  
+
+
+/* Register */
+/* registerStyles.css */
+.register-container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+.register-box {
+  display: flex;
+  width: 70%;
+  max-width: 1200px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.register-image {
+  width: 70%;
+  background: url("../image/breakdown.png") no-repeat center center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+
+.register-form {
+  width: 50%;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-title {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 1em;
+  margin-bottom: 5px;
+  color: #666;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.register-button {
+  margin-top: 20px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-left: 0;
+}
+
+.register-button:hover {
+  background-color: #0056b3;
+}
+
+.custom-link{
+  text-decoration: none;
+  color: #0056b3;
+}
+
+.logout{
+  padding-left: 34px;
+  padding-right: 44px;
+  color: #007bff;
+}
+.response{
+  padding-top: 28px;
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+
+
+
+/* //mainpage */
+/* DropdownFetch.css */
+/* DropdownFetch.css */
+
+.dropdown-fetch-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 35px;
+  color: #333;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 30px;
+  width: 100%;
+  max-width: 410px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #333;
+}
+
+.dropdown, .search-box {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: border-color 0.3s;
+}
+
+.dropdown:focus, .search-box:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.data-container {
+  margin-top: 20px;
+  text-align: left;
+  width: 100%;
+}
+
+.data-container h3 {
+  margin-bottom: 10px;
+  color: #333;
+  font-size: 20px;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+}
+
+.data-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.data-item {
+  background-color: #ffffff;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.data-item:hover {
+  background-color: #f9f9f9;
+  border-color: #007bff;
+}
+
+.data-item p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.data-item p strong {
+  color: #333;
+}
+
+
+.data-item {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #fff;
+}
+
+.data-item p {
+  margin: 5px 0;
+}
+
+.data-button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.data-button:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+/* css for pop-up */
+body.active-modal {
+  overflow-y: hidden;
+}
+
+.btn-modal {
+  padding: 10px 20px;
+  display: block;
+  margin: 100px auto 0;
+  font-size: 18px;
+}
+
+.modal, .overlay {
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+.overlay {
+  background: rgba(49,49,49,0.8);
+}
+.modal-content {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  line-height: 1.4;
+  background: #f1f1f1;
+  padding: 14px 28px;
+  border-radius: 3px;
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.close-modal {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 5px 7px;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+
+
+/* //google signin */
+.google-signin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+
+.google-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #4285F4; /* Google's blue */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+
+.google-button:hover {
+  background-color: #357ae8; /* Darker blue for hover */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.google-button:active {
+  background-color: #2a6abf; /* Even darker blue when pressed */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.google-button::before {
+  content: url('https://upload.wikimedia.org/wikipedia/commons/5/53/Google_%22G%22_Logo.svg'); /* Google logo */
+  margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 600px) {
+  .subconatiner{
+    font-size: 8px;
+
+  }
+  .register-container{
+    height: 100vh;
+  }
+  .panel{
+    flex-direction: column;
+    padding: 0px;
+    text-align: right;
+  }
+
+  .google-signin{
+    margin-top: 0px;
+  }
+
+  .google-button{
+    font-size: 8px;
+    padding: 6px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .subconatiner p{
+    font-size: 10px;
+  }
+
+  .container{
+    font-size: 8px;
+  }
+
+  .box{
+    width: 200px;
+  }
+
+  .service-box{
+    padding: 0;
+  }
+  .register-image {
+      display: none;
+  }
+
+  .register-form {
+    font-size: 8px;
+    width: 100px;
+    padding: 2px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .register-button{
+    margin-top: 2px;
+    margin-left: 2px;
+  }
+
+  .register-box{
+    width: 150px;
+  }
+
+  .form-group{
+    font-size: 8px;
+  }
+  .form-group input{
+    width: 100px;
+  }
+
+  .register-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modal-content {
+      width: 90%;
+  }
+
+  .response{
+    border: none;
+    padding-top: 2px;
+    padding-right: 0px;
+    margin: 0;
+  }
+
+  .link{
+    font-size: 8px;
+    padding: 2px;
+    text-align: right;
+  }
+
+  .logout{
+    margin: 0;
+    padding: 0;
+  }
+
+  .dropdown-fetch-container h1{
+    font-size: 20px;
+    text-align: center;
+  }
+
+  label{
+    font-size: 12px;
+  }
+
+  .dropdown {
+    font-size: 12px;
+  }
+
+  .search-box{
+    font-size: 12px;
+    width: 100px;
+  }
+
+  .data-container h3{
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .data-container ul li p {
+    font-size: 8px;
+  }
+
+  .data-button{
+    font-size: 9px;
+    padding: 4px 8px;
+  }
+
+  .modal-content{
+    font-size: 10px;
+    text-align: center;
+    min-width: 100px;
+    padding: 0;
+  }
+
+  .close-modal{
+    font-size: 8px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .modal-content h2 {
+    font-size: 12px;
+  }
+
+  .modal-content p {
+    font-size: 10px;
+  }
+
+  .banner p{
+    padding-top: 100px;
+    font-size: 40px;
+  }
+
+}
+
+
+
+/* Medium devices (portrait tablets and large phones, 600px to 768px) */
+@media only screen and (max-width: 768px) {
+  .subcontainer {
+    font-size: 10px;
+  }
+
+  .panel {
+    width: 150px;
+    height: 60px;
+    flex-direction: column;
+    padding: 5px;
+    text-align: center;
+  }
+
+  .subcontainer p {
+    font-size: 12px;
+  }
+
+  .google-signin{
+    margin-top: 0px;
+  }
+
+  .google-button{
+    font-size: 8px;
+    padding: 6px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  .container {
+    font-size: 10px;
+  }
+
+  .box {
+    width: 250px;
+  }
+
+  .service-box {
+    padding: 5px;
+  }
+
+  .register-image {
+    display: block;
+  }
+
+  .register-form {
+    font-size: 10px;
+    width: 200px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .register-button {
+    margin-top: 5px;
+    margin-left: 5px;
+  }
+
+  .register-box {
+    width: 200px;
+  }
+
+  .form-group {
+    font-size: 10px;
+  }
+
+  .form-group input {
+    width: 150px;
+  }
+
+  .register-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .modal-content {
+    width: 80%;
+  }
+
+  .response {
+    border: none;
+    padding-top: 5px;
+    padding-right: 5px;
+    margin: 5px;
+    text-align: right;
+  }
+
+  .link {
+    font-size: 10px;
+    padding: 5px;
+    text-align: right;
+    height: 45%;
+    padding-bottom: 10px;
+  }
+
+  .logout {
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .dropdown-fetch-container h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  .dropdown {
+    font-size: 14px;
+  }
+
+  .search-box {
+    font-size: 14px;
+    width: 312px;
+  }
+
+  .data-container h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .data-container ul li p {
+    font-size: 10px;
+  }
+
+  .data-button {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+
+  .modal-content {
+    font-size: 12px;
+    text-align: center;
+    min-width: 150px;
+    padding: 5px;
+  }
+
+  .close-modal {
+    font-size: 10px;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .modal-content h2 {
+    font-size: 14px;
+  }
+
+  .modal-content p {
+    font-size: 12px;
+  }
+
+  .subconatiner .link p {
+    padding: 0;
+    margin: 0;
+  }
+
+  .banner p{
+    padding-top: 100px;
+    font-size: 40px;
+  }
+}
+
+
+/* Large devices (laptops/desktops, 768px and up) */
+@media only screen and (min-width: 1024px) {
+  .container{
+    height: 100vh;
+  }
+  
+  .subcontainer {
+    font-size: 14px;
+  }
+
+  .panel {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .subcontainer p {
+    font-size: 16px;
+  }
+
+  .container {
+    font-size: 14px;
+  }
+
+  .box {
+    width: 300px;
+  }
+
+  .service-box {
+    padding: 10px;
+  }
+
+  .modal-content {
+    width: 100%;
+    height: 50%;
+  }
+
+  .link {
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .logout {
+    margin: 10px;
+    padding: 10px;
+  }
+
+  .dropdown-fetch-container h1 {
+    font-size: 28px;
+    text-align: left;
+  }
+
+  label {
+    font-size: 16px;
+  }
+
+  .dropdown {
+    font-size: 16px;
+  }
+
+  .search-box {
+    font-size: 16px;
+    width: 200px;
+  }
+
+  .data-container h3 {
+    font-size: 24px;
+    text-align: left;
+  }
+
+  .data-container ul li p {
+    font-size: 14px;
+  }
+
+  .data-button {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+
+  .modal-content {
+    font-size: 14px;
+    text-align: left;
+    min-width: 200px;
+    padding: 10px;
+  }
+
+  .close-modal {
+    font-size: 12px;
+    padding: 10px;
+    margin: 10px;
+    color: red;
+  }
+
+  .modal-content h2 {
+    font-size: 16px;
+  }
+
+  .modal-content p {
+    font-size: 14px;
+  }
+}
+
+
+
+
+
+
+
+
+
