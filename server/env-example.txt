@@ -1,0 +1,12 @@
+PORT=server port
+MONGOURI=mongodb usl
+JWT_SECRET=jwt secret 
+EXPIRE=expire time
+
+CLIENT_ID=google authentication client id
+CLIENT_SE=google authentication client secret
+
+SESSION_SE=session secret
+
+PAGE=pagination page
+LIMIT=pagination limit
