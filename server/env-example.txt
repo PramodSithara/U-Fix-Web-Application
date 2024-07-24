@@ -1,0 +1,14 @@
+PORT=port
+MONGOURI=mongo url
+JWT_SECRET=jwt secret
+EXPIRE=jwt expire time
+
+CLIENT_ID=google auth client id
+CLIENT_SE=google auth secret
+
+SESSION_SE=session secret
+HOME=http://localhost:3000
+CALLBACK=http://localhost:5000/api/v1/google/callback
+
+PAGE=1
+LIMIT=10
